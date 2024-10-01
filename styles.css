@@ -1,0 +1,80 @@
+*
+{
+    font-family: Roboto; /*font used*/
+}
+
+button 
+{
+    background-color: #3882f6; /*button color, call to action background color*/
+}
+
+header
+{
+    background-color: #1F2937; /*dark backgorund color (hero and footer)*/
+}
+
+header h1 
+{
+    /*header logo text*/
+    font-size: 24px;
+    color: #f9faf8; 
+}
+
+header a
+{
+    color: #E5E7EB; /*hero secondary text, header link text*/
+}
+
+.hero 
+{
+    background-color: #1F2937; /*dark backgorund color (hero and footer)*/
+}
+
+.hero h1
+{   
+    /*hero main text*/
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero p 
+{
+    /*hero secondary text, header link text*/
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.information
+{
+
+}
+
+.quote 
+{
+    background-color: #E5E7EB; /*quote section background color*/
+}
+
+blockquote
+{
+    /*quote text*/
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.call-to-action
+{
+
+}
+
+.call-to-action div 
+{
+    background-color: #3882f6; /*button color, call to action background color*/
+}
+
+footer
+{
+    background-color: #1F2937; /*dark backgorund color (hero and footer)*/
+}
