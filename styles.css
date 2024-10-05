@@ -1,62 +1,125 @@
-*
-{
-    font-family: Roboto; /*font used*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
-button 
-{
-    background-color: #3882f6; /*button color, call to action background color*/
+body {
+    font-family: "Roboto";
+    /*font used*/
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-header
-{
-    background-color: #1F2937; /*dark backgorund color (hero and footer)*/
+button {
+    background-color: #3882f6;
+    /*button color, call to action background color*/
 }
 
-header h1 
-{
+header {
+    background-color: #1F2937;
+    /*dark backgorund color (hero and footer)*/
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header h1 {
     /*header logo text*/
     font-size: 24px;
-    color: #f9faf8; 
+    color: #f9faf8;
 }
 
-header a
-{
-    color: #E5E7EB; /*hero secondary text, header link text*/
+header a {
+    color: #E5E7EB;
+    /*hero secondary text, header link text*/
+    text-decoration: none;
+    padding-left: 10px;
 }
 
-.hero 
-{
-    background-color: #1F2937; /*dark backgorund color (hero and footer)*/
+.hero {
+    background-color: #1F2937;
+    /*dark backgorund color (hero and footer)*/
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.hero h1
-{   
+.hero-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    flex: 1;
+    background-color: grey;
+}
+
+.hero h1 {
     /*hero main text*/
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
 }
 
-.hero p 
-{
+.hero p {
     /*hero secondary text, header link text*/
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.information
-{
-
+.information {
+    font-size: 18px;
+    padding: 75px;
+    flex: 1;
 }
 
-.quote 
-{
-    background-color: #E5E7EB; /*quote section background color*/
+.img {
+    width: 175px;
+    height: 175px;
+    border: 1px solid yellow;
+    margin: 0 auto;
 }
 
-blockquote
-{
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.box {
+    width: 175px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 75px;
+    /*quote section background color*/
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.quote > p {
+    text-align: right;
+    font-weight: bold;
+    margin: 10px;
+}
+
+blockquote {
     /*quote text*/
     font-size: 36px;
     font-weight: lighter;
@@ -64,17 +127,25 @@ blockquote
     color: #1F2937;
 }
 
-.call-to-action
-{
-
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }
 
-.call-to-action div 
-{
-    background-color: #3882f6; /*button color, call to action background color*/
+.call-to-action div {
+    background-color: #3882f6;
+    /*button color, call to action background color*/
+    padding: 20px;
 }
 
-footer
-{
-    background-color: #1F2937; /*dark backgorund color (hero and footer)*/
+footer {
+    background-color: #1F2937;
+    /*dark backgorund color (hero and footer)*/
+    color: #E5E7EB;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
