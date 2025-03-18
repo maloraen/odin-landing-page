@@ -6,8 +6,7 @@
 }
 
 body {
-    font-family: "Roboto";
-    /*font used*/
+    font-family: "Roboto"; /*font used*/
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -15,17 +14,25 @@ body {
 }
 
 button {
-    background-color: #3882f6;
-    /*button color, call to action background color*/
+    background-color: #3882f6; /*button color, call to action background color*/
+    color: white;
+    width: 100px;
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+}
+
+.call-to-action button {
+    border: 1px solid white;
 }
 
 header {
     background-color: #1F2937;
     /*dark backgorund color (hero and footer)*/
-    padding: 10px;
+    padding: 10px 75px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -35,20 +42,18 @@ header h1 {
 }
 
 header a {
-    color: #E5E7EB;
-    /*hero secondary text, header link text*/
+    color: #E5E7EB; /*hero secondary text, header link text*/
     text-decoration: none;
-    padding-left: 10px;
+    padding-left: 12px;
 }
 
 .hero {
-    background-color: #1F2937;
-    /*dark backgorund color (hero and footer)*/
+    background-color: #1F2937; /*dark backgorund color (hero and footer)*/
     padding: 75px;
-    flex: 1;
     display: flex;
+    flex: 1;
     align-items: center;
-    justify-content: space-around;
+    gap: 5%;
 }
 
 .hero-text {
@@ -60,6 +65,11 @@ header a {
 .image {
     flex: 1;
     background-color: grey;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 .hero h1 {
@@ -69,10 +79,11 @@ header a {
     font-weight: 900;
 }
 
-.hero p {
+.hero-text p {
     /*hero secondary text, header link text*/
     font-size: 18px;
     color: #E5E7EB;
+    margin: 8px 0px;
 }
 
 .information {
